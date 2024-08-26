@@ -73,6 +73,9 @@ Run the following commands step by step
 * kubectl get all -A
 * kubectl port-forward service/front-end -n sock-shop 30001:80
 
+![kube-pod](./images/kubernetes%20pod.jpeg)
+![kube-state](./images/kube-state.jpeg) 
+
 # Exposing the Application
 Create a Service:
 
@@ -100,6 +103,7 @@ Install Grafana:
 * helm install grafana grafana/grafana
 Grafana.(you domain name) 
 ![grafana](./images/grafana.PNG)
+![grafana](./images/Grafana.jpeg)
 
 # Alertmanager Setup
 Configure Alertmanager:
